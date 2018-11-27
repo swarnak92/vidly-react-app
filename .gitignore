@@ -1,0 +1,5 @@
+node_modules/
+tests/
+logfile.log
+README 2.md
+build/
