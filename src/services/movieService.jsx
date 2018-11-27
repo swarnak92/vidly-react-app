@@ -1,9 +1,7 @@
 import http from "./httpService";
 
 const movieEndPoint = id => {
-  return id
-    ? `${"/movies/"}${id}`
-    : `${"/movies/"}`;
+  return id ? `${"/movies/"}${id}` : `${"/movies/"}`;
 };
 
 export function getMovies() {

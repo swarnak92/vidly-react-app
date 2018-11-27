@@ -1,9 +1,7 @@
 import http from "./httpService";
 
 const userEndPoint = id => {
-  return id
-    ? `${"/users/"}${id}`
-    : `${"/users/"}`;
+  return id ? `${"/users/"}${id}` : `${"/users/"}`;
 };
 export function registerUser(payload) {
   const data = {
