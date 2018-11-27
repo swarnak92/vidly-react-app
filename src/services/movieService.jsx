@@ -1,10 +1,9 @@
 import http from "./httpService";
-import config from "../config.json";
 
 const movieEndPoint = id => {
   return id
-    ? `${config.apiEndPoint}${"/movies/"}${id}`
-    : `${config.apiEndPoint}${"/movies/"}`;
+    ? `${"/movies/"}${id}`
+    : `${"/movies/"}`;
 };
 
 export function getMovies() {

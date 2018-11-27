@@ -1,10 +1,9 @@
 import http from "./httpService";
-import config from "../config.json";
 
 const userEndPoint = id => {
   return id
-    ? `${config.apiEndPoint}${"/users/"}${id}`
-    : `${config.apiEndPoint}${"/users/"}`;
+    ? `${"/users/"}${id}`
+    : `${"/users/"}`;
 };
 export function registerUser(payload) {
   const data = {
