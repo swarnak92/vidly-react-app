@@ -1,0 +1,7 @@
+sonar.projectKey=vidly-react-app
+sonar.projectName=vidly-react-app
+sonar.projectVersion=1.0
+sonar.sources=.
+sonar.sourceEncoding=UTF-5
+sonar.host.url=https://sonarcloud.io
+sonar.login=18797b15be67d8bc8b51b0c23796be127ed53442
