@@ -1,4 +1,4 @@
-sonar.projectKey=vidly-react-app
+sonar.projectKey=swarnak92_vidly-react-app
 sonar.projectName=vidly-react-app
 sonar.sources=.
 sonar.projectVersion=1.0
